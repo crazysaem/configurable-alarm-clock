@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<LinearLayout  	
+  	android:orientation="vertical"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="match_parent">
+    <EditText 
+    	android:id="@+id/etModuleDisplayLight_Name" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" 
+    	android:text="DisplayLight A">
+    </EditText>
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleDisplayLight_Timeb4WakeUp" 
+    	android:text="00 Minutes before Wake-Up" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set time before Wake-Up" 
+    	android:id="@+id/bModuleDisplayLight_SetTimeb4WakeUp" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button> 
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleDisplayLight_Duration" 
+    	android:text="00 Seconds Duration" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set Duration" 
+    	android:id="@+id/bModuleDisplayLight_SetDuration" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>  
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleDisplayLight_StartUpTime" 
+    	android:text="00 Seconds Start-Up" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set Start-Up Time" 
+    	android:id="@+id/bModuleDisplayLight_SetStartUpTime" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>     
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleDisplayLight_LightColor" 
+    	android:text="-- Color --" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set Light Color" 
+    	android:id="@+id/bModuleDisplayLight_SetLightColor" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:text=" " 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="OK"
+    	android:id="@+id/bModuleDisplayLight_OK" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+    </Button>   
+</LinearLayout>
+</ScrollView>

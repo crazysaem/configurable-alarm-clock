@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal"
+  	android:layout_width="match_parent"
+  	android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivListviewImageTextImage_Image01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:maxHeight="60dp"
+        android:minHeight="60dp"
+        android:src="@drawable/delete" >
+
+	</ImageView>
+
+	<ImageView
+	    android:id="@+id/ivListviewImageTextImage_Image02"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center"
+	    android:maxHeight="60dp"
+	    android:minHeight="60dp"
+	    android:src="@drawable/inactive" >
+
+    </ImageView>
+    <TextView 
+    	android:text="Add d" 
+    	android:id="@+id/tvListviewImageTextImage_Text01" 
+    	android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:gravity="center"
+		android:textSize="20dp" 
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/ivListviewImageTextImage_Image01"
+		android:layout_toLeftOf="@id/ivListviewImageTextImage_Image02"
+		android:minHeight="60dp"
+		android:maxHeight="60dp"
+		>
+	</TextView>    
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView 
+    	android:id="@+id/lvAlarmClocks" 
+    	android:layout_height="match_parent" 
+    	android:layout_width="match_parent" 
+    	android:layout_weight="20">
+    </ListView>
+    <LinearLayout 
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"     
+		android:layout_weight=".10"
+		android:gravity="center">
+	    <Button 
+	    	android:text="Start White Noise"
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/bMain_WhiteNoise"
+	    	android:layout_weight=".50">
+	    </Button>
+	    <Button 
+	    	android:text="Settings"
+	    	android:layout_width="match_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/bMain_Settings"
+	    	android:layout_weight=".50">
+	    </Button>
+    </LinearLayout>
+</LinearLayout>

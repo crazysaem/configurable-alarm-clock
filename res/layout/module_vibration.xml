@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<LinearLayout  	
+  	android:orientation="vertical"
+ 	android:layout_width="match_parent"
+ 	android:layout_height="match_parent">
+    <EditText 
+    	android:id="@+id/etModuleVibration_Name" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" 
+    	android:text="Vibration A">
+    </EditText>
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleVibration_Timeb4WakeUp" 
+    	android:text="00 Minutes before Wake-Up" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set time before Wake-Up" 
+    	android:id="@+id/bModuleVibration_SetTimeb4WakeUp" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleVibration_Duration" 
+    	android:text="00 Seconds Duration" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set Duration" 
+    	android:id="@+id/bModuleVibration_SetDuration" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+    <TextView 
+    	android:gravity="center"
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tvModuleVibration_Repeats" 
+    	android:text="00 Repeats" 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="Set number of repeats" 
+    	android:id="@+id/bModuleVibration_SetRepeats" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+    <TextView 
+    	android:layout_height="wrap_content" 
+    	android:text=" " 
+    	android:layout_width="match_parent" 
+    	android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+    <Button 
+    	android:text="OK"
+    	android:id="@+id/bModuleVibration_OK" 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+    </Button>   
+</LinearLayout>
+</ScrollView>

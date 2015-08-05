@@ -1,0 +1,24 @@
+- Code Cleanup neeeded.
+- More Modules needed.
+- implement the "Extra Option"
+	-> Mathe-aufgaben/rätsel einstellen
+- Main Menu needs more Functionality (Settings/White Noise)
+- verhindern das mehrere uhren gleichzeig aktiviert sein können
+- Activity Window zum deaktivieren des Weckers hinzufügen
+	->Falls z.b. DisplayLight über dem deaktivierfenster steht, soll displaylight per z.B.: 'touch' geschlossen werden
+	->Auf dem deaktivierungsfenster, falls gewünscht, ein rätsel anzeigen
+	->Deaktivierungsfenster im vordergrund halten, damit der user den wecker auch deaktivieren kann
+- Timeline-Ansicht hinzufügen
+	Landscape mode
+	Scrollbar unten, welche die Zeit zwichen ersten und letztem module als bereich hat
+	start/stop button
+	geschwindigkeits button
+	-> Spielt alle module eines weckers ab, damit der user sieht, wie der wecker sich verhällt
+- funktion einbauen die prüft ob akku noch hält bis zum alarm
+- weckzeit aus google-calendar errechnen (1. eintrag oder so)
+- numberpicker aus git implementieren
+- zeit zwichen vibrationen einstellbar machen
+- wenn keine tage ausgewählt wurden, uhr nur einmal aktivieren
+- longpress auf module testet modul
+- weckruf für andere, andere leute per anruf wecken
+- finalize each cursor ! (use .close), also watch out for other obejcts to finalize when cleaning up

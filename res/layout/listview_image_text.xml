@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal"
+  	android:layout_width="match_parent"
+  	android:layout_height="wrap_content">
+    <ImageView 
+    	android:src="@drawable/delete" 
+    	android:id="@+id/ivListviewImageText_Image01" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:gravity="center"
+		android:layout_alignParentLeft="true" 
+		android:layout_centerVertical="true"
+		android:minHeight="60dp"
+		android:maxHeight="60dp"
+		>
+    </ImageView>
+    <TextView 
+    	android:text="Add d" 
+    	android:id="@+id/tvListviewImageText_Text01" 
+    	android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:gravity="center"
+		android:textSize="20dp" 
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/ivListviewImageText_Image01"
+		android:minHeight="60dp"
+		android:maxHeight="60dp"
+		>
+	</TextView>    
+</RelativeLayout>

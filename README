@@ -1,0 +1,12 @@
+How to compile:
+
+use "git clone" to clone the entire repository to your harddisc.
+
+Make sure you have version 15 of the Android SDK and the Android Eclipse Plugin, and Android 2.2 (API_LEVEL 8) as a compile platform
+
+In Eclipse you will probably get the Error that R.java is missing.
+You have to generate it.
+Either try 'Right-Click on Project'->'Android Tools'->'Fix Project Properties'
+and/or try (at the top menu) 'Project'->'Clen...'
+
+hf
